@@ -1,0 +1,117 @@
+
+.font-style-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin 0;
+    padding: 0;
+}
+.container{
+    align-items: center;
+
+
+}
+.navbar{
+    /* width: 1600px; */
+    max-width: 1600px;
+    width: 100%;
+    height: 92px;
+    padding: 16px 200px 16px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+    background-color: #1A0B2E;
+
+}
+.nav-icon{
+    /* border: 1px solid rgba(0, 0, 0, 1); */
+    color: #FFFFFF;
+}
+.nav-icon .coloring{
+    color:var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+
+.navbar .menu{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.primary-btn{
+    gap: 4;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    border-radius: 100px;
+    width: 135px;
+    height: 44px; 
+    font-size: 16px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    color: #FFFFFF;
+
+}
+
+.banner{
+    height: 760px;
+     max-width: 1600px;
+     align-items: center;
+    /* width: 100%; */
+    background: url("../B13-A02-TechWave/assets/hero-bg.png");
+}
+.banner .banner-items{
+    width: 550px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40;
+    padding: 101px 525px 101px 525px;
+}
+.banner-items .bg-img{
+display: block;
+}
+.top-img{
+    position: absolute;
+    top: 275px;
+
+}
+.top-icon{
+    position: absolute;
+    left: 877px;
+    background-color:#00FF88;
+    width: 75px;
+    height: 35px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    gap: 10;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A0B2E;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+ 
+}
+.banner-items h1{
+    font-size: 60px;
+    height: 73px;
+    padding-bottom: 8px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-items .items{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    
+}
