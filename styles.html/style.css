@@ -216,7 +216,7 @@ color: #FFFFFF;
    color: #FFFFFF;
 }
 .choose-resn{
-    width: 1600px;
+    max-width: 1600px;
     height: 1121px;
     background: rgba(35, 14, 61, 1);
     margin-top: 0;
@@ -243,4 +243,16 @@ color: #FFFFFF;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
     align-items: center;
+}
+.vdo{
+    width: 1600px;
+    height: 1276px;
+     background: rgba(26, 11, 46, 1);
+
+}
+.footer-main{
+    width: 1600px;
+    height: 412px;
+    
+
 }
