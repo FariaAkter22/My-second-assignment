@@ -245,13 +245,13 @@ color: #FFFFFF;
     align-items: center;
 }
 .vdo{
-    width: 1600px;
+    max-width: 1600px;
     height: 1276px;
-     background: rgba(26, 11, 46, 1);
+    background: rgba(26, 11, 46, 1);
 
 }
 .footer-main{
-    width: 1600px;
+    max-width: 1600px;
     height: 412px;
     
 
